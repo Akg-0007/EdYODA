@@ -1,4 +1,4 @@
-# EdYODA
+
 live at https://64b38472ee9bac038070047f--lustrous-medovik-e64acc.netlify.app/
 <br>
 Payments Page
