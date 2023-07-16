@@ -1,0 +1,230 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.home{
+  background-image: url("./assets/back.png");
+  background-size:cover ;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 120px;
+  padding-top: 30px;
+  padding-right: 120px;
+}
+.offer{
+  position: relative;
+}
+.rate{
+  background-color: white;
+  /* height: 100%; */
+ 
+/* padding: 32px 24px 32px 24px; */
+border-radius: 8px;
+margin-bottom: 40px;
+margin-top: 50px;
+margin-right: 50px;
+
+}
+.exp{
+  background-color:#F77171;
+  color: #D7EDDD;
+  padding: 0 10px 0 10px;
+  font-weight: 600;
+  position: absolute;
+  opacity: 0.8;
+  font-size: 10px;
+  left: 60px;
+}
+
+.fw-600{
+  font-weight: 600;
+  font-size: 20px;
+}
+.fw-400{
+  font-weight: 400;
+  font-size: 16px;
+
+}
+.rc-flex{
+  display: flex;
+  /* gap:40px; */
+  justify-content: space-between;
+  border: 2px solid #47BA68;
+  background: 
+linear-gradient(0deg, #D7EDDD, #D7EDDD); 
+padding: 10px 10px 10px 10px;
+border-radius: 4px;
+margin:5px 12px;
+
+
+
+}
+
+.heading{
+  font-size: 45px;
+  font-weight: 600;
+  color: white;
+}
+.logo-sig{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+  gap:54px
+}
+.money{
+  position: relative;
+}
+.red-rect{
+  width: 125px;
+height: 5px;
+background-color: red;
+position: absolute;
+top: 50%;
+left:24%
+}
+.inner-div{
+  display: flex;
+  gap: 30px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  align-items: center;
+
+}
+.items{
+  font-size: 32px;
+  color: white;
+}
+.sub-flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.lg{
+  background: 
+  /* linear-gradient(135deg, #DE4313 0%, #DE4313 0.75%, #DE4313 2.92%, #DE4414 6.37%, #DF4515 10.97%, #DF4816 16.59%, #E04B18 23.1%, #E1501B 30.37%, #E3561F 38.27%, #E55E24 46.66%, #E7682B 55.41%, #EB7533 64.39%, #EE843C 73.47%, #F39547 82.52%, #F8A954 91.41%, #FEC163 100%), */
+linear-gradient(135deg, rgba(222, 67, 19, 0.2) 0%, rgba(222, 67, 19, 0.2) 0.75%, rgba(222, 67, 19, 0.2) 2.92%, rgba(222, 68, 20, 0.2) 6.37%, rgba(223, 69, 21, 0.2) 10.97%, rgba(223, 72, 22, 0.2) 16.59%, rgba(224, 75, 24, 0.2) 23.1%, rgba(225, 80, 27, 0.2) 30.37%, rgba(227, 86, 31, 0.2) 38.27%, rgba(229, 94, 36, 0.2) 46.66%, rgba(231, 104, 43, 0.2) 55.41%, rgba(235, 117, 51, 0.2) 64.39%, rgba(238, 132, 60, 0.2) 73.47%, rgba(243, 149, 71, 0.2) 82.52%, rgba(248, 169, 84, 0.2) 91.41%, rgba(254, 193, 99, 0.2) 100%);
+border: 2px none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+/* gap:0px; */
+}
+.cancel{
+  
+padding: 5px 42px 5px 42px;
+border-radius: 4px;
+
+color: #F77171;
+border: 2px solid #F77171;
+margin:5px;
+}
+
+.proceed{
+ 
+padding: 5px 42px 5px 42px;
+border-radius: 4px;
+background: #47BA68;
+border: none;
+}
+.mar{
+  margin-left:14px;
+  margin-right: 14px;
+}
+
+
+/* navabar
+ */
+ .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.dropdown {
+  position: relative;
+  margin-left: 20px;
+}
+
+.dropdown-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  position: absolute;
+  width: 110px;
+  top: 100%;
+  left: 0;
+  display: none;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  color: #333;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+}
+
+.search img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.login-btn,
+.join-now-btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  margin-left: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.login-btn:hover,
+.join-now-btn:hover {
+  background-color: #555;
+}
+.blue{
+  
+padding: 10px 42px 10px 42px;
+border-radius: 52px;
+background: linear-gradient(266.79deg, #0048FF 4.63%, #0096FF 100%);
+
+
+}
+.lg{
+  padding: 10px 42px 10px 42px;
+background: #fff;
+}
